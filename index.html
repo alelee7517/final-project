@@ -1,0 +1,76 @@
+<!DOCTYPE html> <!--sets the document type-->
+<html lang = "en"> <!--sets the language to english-->
+<head>
+  <!-- meta data about the site -->
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="styles.css"> <!-- links to the stylesheet -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- sets the standard view for mobile-friendly websites -->
+  <title>Alex's Blog</title> <!--website title -->
+</head>
+<body>
+  <header id="home">
+    <h1>Alex's Blog!</h1> <!-- header element for the website -->
+  </header>
+  
+  <!-- starting the navigation -->
+  <nav>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  
+<!-- main content of the page -->
+  <main>
+<!-- Blog sections for the blog posts-->
+<section id="blog" class = "articles">
+    <article>
+      <h2>Blog Post #1</h2>
+      <p>This is an example for the blog post roses are red the sky is blue.</p>
+      <p>We have so much fun playing at the lake this weekend</p>
+    </article>
+  
+    <article>
+      <h2>Blog Post #2</h2>
+      <p>We got a new puppy dog and he is really cute.</p>
+      <p>We are just about finished with these courses on to new ones.</p>
+    </article>
+</section>
+    
+<!-- contact section-->
+<section id="contact">
+    <header>
+      <h2>Contact</h2>
+     </header>
+     <p>This is my contact information.</p>
+
+<!-- the is the contact form -->
+  <form>
+    <!-- name -->
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <!-- email -->
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <!-- subject -->
+    <label for="subject">Subject:</label>
+    <input type="text" id="subject" name="subject">
+
+    <!-- message -->
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" rows="5" required></textarea>
+
+    <!-- submit button -->
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+  </main>
+  <!--This is the footer information holding the copyright -->
+    <footer>
+      <p>Copyright StudentID: Alelee7517 &copy; 2025 Alexandria Lee</p> <!-- this sets the character entity and the copyright information-->
+    </footer>
+  </body>
+</html>
